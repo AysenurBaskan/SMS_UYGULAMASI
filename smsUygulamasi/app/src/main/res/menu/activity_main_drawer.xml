@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/grup_Olustur"
+            android:title="Grup Oluştur" />
+        <item
+            android:id="@+id/gruba_Ekle"
+            android:title="Gruba Ekle" />
+        <item
+            android:id="@+id/mesaj_Olustur"
+            android:title="Mesaj Oluştur" />
+        <item
+            android:id="@+id/mesaj_Gonder"
+            android:title="Mesaj Gönder" />
+        <item
+            android:id="@+id/cikis"
+            android:title="Çıkış" />
+    </group>
+</menu>

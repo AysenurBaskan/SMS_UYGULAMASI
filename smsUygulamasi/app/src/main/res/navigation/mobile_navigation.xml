@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/mesaj_Gonder">
+
+    <fragment
+        android:id="@+id/grup_Olustur"
+        android:name="com.example.smsuygulamasi.ui.grup_olustur.grupolustur"
+        android:label="Grup Oluştur"
+        tools:layout="@layout/fragment_grupolustur" />
+
+    <fragment
+        android:id="@+id/gruba_Ekle"
+        android:name="com.example.smsuygulamasi.ui.gruba_ekle.grubaekle"
+        android:label="Gruba Ekle"
+        tools:layout="@layout/fragment_grubaekle" />
+
+    <fragment
+        android:id="@+id/mesaj_Olustur"
+        android:name="com.example.smsuygulamasi.ui.mesaj_olustur.mesajolustur"
+        android:label="Mesaj Oluştur"
+        tools:layout="@layout/fragment_mesajolustur" />
+    <fragment
+        android:id="@+id/mesaj_Gonder"
+        android:name="com.example.smsuygulamasi.ui.mesaj_gonder.mesajgonder"
+        android:label="Mesaj Gönder"
+        tools:layout="@layout/fragment_mesajgonder" />
+</navigation>
